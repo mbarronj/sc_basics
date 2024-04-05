@@ -36,4 +36,10 @@ Pbindef(\mykick,
 ).play
 )
 
+// Not sure why this doesn't work great.
+s.freeAll
+
+// stops things just like ctrl . - which somehow doesn't really always work?
+CmdPeriod.run
+
 s.reboot
